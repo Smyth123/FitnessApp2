@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/mainPage">
+
+    <fragment
+        android:id="@+id/homfrag"
+        android:name="com.example.fitnessapp.Homefrag"
+        android:label="fragment_homfrag"
+        tools:layout="@layout/fragment_homfrag" />
+    <activity
+        android:id="@+id/log"
+        android:name="com.example.fitnessapp.Log"
+        android:label="fragment_weight"
+        tools:layout="@layout/fragment_weight" />
+    <fragment
+        android:id="@+id/mainPage"
+        android:name="com.example.fitnessapp.MainPage"
+        android:label="main_page"
+        tools:layout="@layout/main_page" >
+        <action
+            android:id="@+id/profile_to_weight"
+            app:destination="@id/log" />
+        <action
+            android:id="@+id/profile_to_steps"
+            app:destination="@id/homfrag" />
+    </fragment>
+</navigation>

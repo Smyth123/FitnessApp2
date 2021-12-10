@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">FitnessApp</string>
+    <string name="title_home">Home</string>
+    <string name="title_calendar">Graph</string>
+    <string name="title_picture">Pictures</string>
+    <string name="title_profile">Profile</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="save">Save</string>
+    <string name="fitness_app">Fitness App</string>
+    <string name="edit_weight">Edit Weight</string>
+    <string name="daily_weight">Daily Weight</string>
+    <string name="steps_profile">Steps</string>
+    <string name="buttonComfirm">Button</string>
+    <string name="profile_nav">Profile</string>
+    <string name="home_nav">Home</string>
+    <string name="profile_page">Profile</string>
+    <string name="view_steps">View Steps</string>
+    <string name="view_weight">View Weight</string>
+    <string name="api">API</string>
+    <string name="weight_nav">Weight</string>
+    <string name="steps_nav">Steps</string>
+    <string name="weight">Weight</string>
+    <string name="steps">Steps</string>
+    <string name="google_fit_bit_nav">Google Fit Bit</string>
+    <string name="google_maps">Google Maps</string>
+</resources>
